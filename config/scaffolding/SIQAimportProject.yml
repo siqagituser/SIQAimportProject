@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/siqagituser
   gitUsername: siqagituser
   gitBranch: main
+services:
+- serviceName: project.siqaimport.integrations:eee
+  packages:
+  - name: SIQAimportProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2020
